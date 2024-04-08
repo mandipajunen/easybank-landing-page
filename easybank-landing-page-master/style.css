@@ -1,0 +1,936 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Public Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 96%);
+}
+
+.main {
+
+    width: 900px;
+    height: 100%;
+
+}
+
+.main-img {
+    background-image: url('./images/bg-intro-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: 450px -40px;
+    background-size: 600px;
+}
+
+.header {
+    background-color: white;
+    height: 80px;
+    position: relative;
+}
+
+.easybank {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+ul {}
+
+.header a {
+    font-size: 11px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.text {
+    padding: 25px;
+    margin-left: 170px;
+    text-align: center;
+    width: 500px;
+}
+
+.request {
+    background: linear-gradient(to right, hsl(125, 59%, 65%), rgb(103, 210, 228));
+    border: none;
+    width: 150px;
+    border-radius: 50px;
+    padding: 13px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.request:hover {
+    background: linear-gradient(to right, hsla(125, 59%, 65%, 0.416), rgb(103, 210, 228));
+    ;
+}
+
+.header .request {
+    float: right;
+    margin-top: -50px;
+    margin-right: 60px;
+
+}
+
+.top-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 330px;
+
+}
+
+
+
+.left-column {
+    width: 350px;
+    padding-left: 80px;
+}
+
+.right-column {
+    display: block;
+
+}
+
+.right-column-img {
+
+    margin-left: 220px;
+    width: 350px;
+    height: 460px;
+    margin-top: 130px;
+
+
+}
+
+h1 {
+    font-weight: 500;
+}
+
+p {
+    font-size: 12px;
+}
+
+.center-container {
+    padding: 50px;
+    height: 400px;
+    background-color: hsl(0, 0%, 93%);
+    display: block;
+
+}
+
+.center-container p {
+    padding-left: 20px;
+}
+
+h2 {
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.center-row {
+    display: flex;
+}
+
+
+.online {
+    padding: 20px;
+
+}
+
+.online p {
+    padding-left: 0px;
+
+}
+
+.online-img {
+    width: 50px;
+}
+
+h3 {
+
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.budgeting {
+    padding: 20px;
+}
+
+.budgeting p {
+    padding-left: 0px;
+
+}
+
+.budgeting-img {
+    width: 50px;
+}
+
+.Onboarding {
+    padding: 20px;
+}
+
+.Onboarding p {
+    padding-left: 0px;
+
+}
+
+.Onboarding-img {
+    width: 50px;
+}
+
+.API {
+    padding: 20px;
+}
+
+.API p {
+    padding-left: 0px;
+
+}
+
+.API-img {
+    width: 50px;
+}
+
+.bottom-container {
+    padding: 20px;
+}
+
+.last-row {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 50px;
+
+}
+
+.recive-card {
+    padding: 20px;
+    width: 200px;
+    height: 330px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.recive-img {
+    width: 155px;
+    height: 120px;
+}
+
+.treat-card {
+    padding: 20px;
+    background-color: white;
+    width: 200px;
+    height: 330px;
+    cursor: pointer;
+}
+
+.treat-img {
+    width: 170px;
+    height: 120px;
+}
+
+
+.take-card {
+    padding: 20px;
+    background-color: white;
+    width: 200px;
+    height: 330px;
+    cursor: pointer;
+
+}
+
+.take-img {
+    width: 170px;
+    height: 120px;
+}
+
+.invite-card {
+    padding: 20px;
+    background-color: white;
+    width: 200px;
+    height: 330px;
+    cursor: pointer;
+}
+
+.invite-img {
+    width: 170px;
+    height: 120px;
+}
+
+.header-down {
+    background-color: rgb(40, 50, 83);
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+}
+
+.left-bottom .easybank {
+    width: 100px;
+    margin: 20px;
+
+}
+
+.face {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+
+
+.tube {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.insta {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.pint {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.twi {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.header-down a {
+    font-size: 11px;
+    padding: 5px;
+    color: #ffffff;
+
+}
+
+.header-down ul {}
+
+.header-down .request {
+    margin-top: 40px;
+
+
+}
+
+.left-bottom {
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right-bottom {
+    float: right;
+    margin-top: -120px;
+
+}
+
+.right-bottom p {
+    margin-left: -30px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding-top: 10px;
+    margin: auto;
+    padding-left: 15px;
+
+}
+
+
+
+.ul1 {
+    padding-left: -10px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+
+
+}
+
+.ul2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -85px;
+    margin-right: 300px;
+
+
+}
+
+.ul2,
+.ul1 a {
+    cursor: pointer;
+
+}
+
+
+
+
+.privacy {
+    margin-left: 30px;
+}
+
+.right-column-img2 {
+    display: none;
+}
+
+
+
+
+
+/*MOBILE*/
+
+@media screen and (max-width: 770px) {
+
+
+
+
+    body {
+        font-family: "Public Sans", sans-serif;
+        display: block;
+        justify-content: center;
+        background-color: hsl(0, 0%, 96%);
+    }
+
+    .main {
+        width: 400px;
+        height: 400vh;
+    }
+
+    .main-img {
+        background-image: url('./images/bg-intro-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: 1px 0px;
+        background-size: 400px;
+    }
+
+    .header {
+        background-color: white;
+        height: 80px;
+
+
+
+
+    }
+
+    .easybank {
+        float: left;
+        margin-top: 30px;
+        margin-left: 0px;
+
+    }
+
+    ul {}
+
+    .header a {
+        font-size: 11px;
+        padding: 0px;
+        cursor: pointer;
+        display: none;
+
+
+    }
+
+
+
+    .text {
+        padding: 25px;
+        margin-left: 170px;
+        text-align: center;
+        width: 0px;
+    }
+
+
+
+    .request {
+        background: linear-gradient(to right, hsl(125, 59%, 65%), rgb(103, 210, 228));
+        border: none;
+        width: 180px;
+        height: 45px;
+        border-radius: 50px;
+        padding: 13px;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+
+    }
+
+    .request:hover {
+        background: linear-gradient(to right, hsla(125, 59%, 65%, 0.416), rgb(103, 210, 228));
+
+    }
+
+    .header .request {
+        float: right;
+        margin-top: 0px;
+        margin-right: 0px;
+        display: none;
+    }
+
+    .top-container {
+        align-items: center;
+        display: block;
+        flex-direction: column;
+        height: 630px;
+        text-align: center;
+
+
+    }
+
+
+
+    .left-column {
+
+        width: 390px;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: -20px;
+    }
+
+    .right-column {
+        display: block;
+
+    }
+
+    .right-column-img {
+        display: none;
+        margin-left: 0px;
+        width: 0px;
+        height: 0px;
+        margin-top: 0px;
+
+
+    }
+
+    .right-column-img2 {
+        display: block;
+        width: 350px;
+        height: 300px;
+        margin-top: -300px;
+        margin-left: -40px;
+
+
+    }
+
+    h1 {
+        font-weight: 500;
+        font-size: 40px;
+
+
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .center-container {
+        padding: 50px;
+        height: 110vh;
+        width: 400px;
+        background-color: hsl(0, 0%, 93%);
+        display: grid;
+        text-align: center;
+    }
+
+    .center-container p {
+        padding-left: 20px;
+    }
+
+    h2 {
+        padding-left: 0px;
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .center-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .online {
+        padding: 20px;
+
+    }
+
+    .online p {
+        padding-left: 0px;
+        text-align: center;
+
+    }
+
+    .online-img {
+        width: 80px;
+    }
+
+    h3 {
+
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .budgeting {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .budgeting p {
+        padding-left: 0px;
+
+    }
+
+    .budgeting-img {
+        width: 80px;
+    }
+
+    .Onboarding {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .Onboarding p {
+        padding-left: 0px;
+
+    }
+
+    .Onboarding-img {
+        width: 80px;
+    }
+
+    .API {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .API p {
+        padding-left: 0px;
+
+    }
+
+    .API-img {
+        width: 80px;
+    }
+
+    .bottom-container {
+        padding: 1px;
+        width: 400px;
+        display: grid;
+    }
+
+    .bottom-container h3 {
+        text-align: start;
+
+    }
+
+    .last-row {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 50px;
+
+    }
+
+    .recive-card {
+        margin-right: 0px;
+        padding: 10px;
+        width: 400px;
+        height: 480px;
+        background-color: white;
+        cursor: pointer;
+
+    }
+
+    .recive-img {
+        width: 355px;
+        height: 220px;
+    }
+
+    .treat-card {
+
+        background-color: white;
+        padding: 10px;
+        width: 400px;
+        height: 480px;
+        cursor: pointer;
+    }
+
+    .treat-img {
+        width: 370px;
+        height: 220px;
+    }
+
+
+    .take-card {
+        padding: 10px;
+        width: 400px;
+        background-color: white;
+
+        height: 480px;
+        cursor: pointer;
+
+    }
+
+    .take-img {
+        width: 370px;
+        height: 220px;
+    }
+
+    .invite-card {
+
+        background-color: white;
+        padding: 10px;
+        width: 400px;
+        height: 480px;
+        cursor: pointer;
+    }
+
+    .invite-img {
+        width: 370px;
+        height: 220px;
+    }
+
+    .header-down {
+        margin-left: 0px;
+        background-color: rgb(40, 50, 83);
+        padding: 0px;
+        width: 400px;
+        height: 500px;
+        display: grid;
+
+
+    }
+
+    .left-bottom .easybank {
+        width: 100px;
+        margin-left: 130px;
+
+
+
+
+    }
+
+    .face {
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+
+
+
+    .tube {
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+
+    .insta {
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+
+    .pint {
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+
+    .twi {
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+
+    .header-down a {
+        font-size: 15px;
+        padding: 5px;
+        color: #ffffff;
+
+
+    }
+
+    .header-down ul {}
+
+    .header-down .request {
+        margin-left: 100px;
+    }
+
+    .left-bottom {
+        float: none;
+        display: grid;
+    }
+
+
+    .right-bottom {
+        float: none;
+        margin-top: 0px;
+
+    }
+
+    .right-bottom p {
+        margin-left: 80px;
+        font-size: 15px;
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        padding-top: 10px;
+        margin: auto;
+        padding-right: 35px;
+
+    }
+
+
+
+    .ul1 {
+        padding-left: 0px;
+        display: grid;
+        flex-direction: column;
+        width: 80px;
+        margin-left: 150px;
+        text-align: center;
+
+
+    }
+
+    .ul2 {
+        text-align: center;
+        display: grid;
+        flex-direction: column;
+        margin-top: -13px;
+        margin-right: 50px;
+
+
+    }
+
+    .ul2,
+    .ul1 a {
+        cursor: pointer;
+
+    }
+
+
+
+
+    .privacy {
+        margin-left: 0px;
+    }
+
+
+    .mobile-container {
+        height: 200px;
+        width: 480px;
+        margin: auto;
+        color: rgb(0, 0, 0);
+
+        display: block;
+        position: absolute;
+        margin-top: 100px;
+
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: #fefefe;
+        width: 380px;
+        border-radius: 20px;
+        margin-left: -33px;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        box-shadow: 0px 18px 126px 20px rgba(0, 0, 0, 0.2);
+
+
+    }
+
+    .topnav #myLinks {
+
+
+        display: none;
+
+    }
+
+    .mylinks {}
+
+    .topnav a {
+        color: rgb(0, 0, 0);
+        padding: 20px 16px;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+        text-align: center;
+
+    }
+
+    .topnav a.icon {
+        background: transparent;
+
+        position: absolute;
+
+
+        margin-top: -86px;
+        margin-right: 150px;
+
+
+        right: 0;
+        top: 0;
+
+    }
+
+    .topnav a:hover {
+        background-color: transparent;
+        color: black;
+
+    }
+
+    .active {}
+}
+
+@media screen and (min-width: 770px) {
+
+    .mobile-container {
+        display: none;
+    }
+
+    .topnav {
+        display: none;
+
+    }
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
+    .topnav a:hover {
+        display: none;
+    }
+
+    .active {
+        display: none;
+    }
+}
